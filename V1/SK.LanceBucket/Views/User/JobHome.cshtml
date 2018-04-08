@@ -1,0 +1,254 @@
+﻿@{
+    ViewBag.Title = "JobHome";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="jquery-ui.css" />
+    <script src="jquery-ui.js"></script>
+    <script type="text/javascript">
+            $(document).ready(function() {
+                $('#slider').scrollspy({
+                    range: true
+                })
+            })
+    </script>
+    <style>
+        .dropdown:hover > .dropdown-menu {
+            display: block;
+        }
+    </style>
+
+    <title>Home</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8" style="box-shadow: 0 15px 40px rgba(80,138,255,0.5);">
+            <h3>Browse Jobs on Freelancer </h3>
+            <br />
+            <div>
+                <div class="col-md-2">
+                    <label class="control-label" for="focusedInput">
+                        Search
+                    </label>
+                </div>
+                <div class="row">
+                    <form class="form-inline ">
+                        <div class="col-md-5">
+                            <div class="form-group has-feedback">
+                                <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                                <input class="form-control" type="text" placeholder="Search for Projects">
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr />
+            <div>
+                <div class="col-md-2">
+                    <label class="control-label" for="focusedInput">
+                        Skills
+                    </label>
+                </div>
+                <div class="row">
+                    <form role="form ">
+                        <div class="col-md-5">
+                            <div class="form-group">
+
+                                <input class="form-control " type="text">
+
+
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+            <hr />
+            <div>
+                <div class="col-md-2">
+                    <label class="control-label" for="focusedInput">
+                        Job Type
+                    </label>
+                </div>
+                <form class="form-horizontal" runat="server">
+                    <div class="col-md-4">
+                        <div class="form-group">
+
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Fixed Price Projects
+                                </label>
+                            </div>
+
+                            <div class="picker">
+                                <input type="range" min="30" max="100" step="1" id="red" />
+
+                                <label style="color: red">$50</label>
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </form>
+
+                <form class="form-horizontal">
+                    <div class="col-md-4">
+                        <div class="form-group">
+
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Hourly Projects
+                                </label>
+                            </div>
+
+                            <div class="picker">
+                                <input type="range" min="30" max="100" step="1" id="red" />
+
+                                <label style="color: red">$100</label>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+
+                <form class="form-horizontal">
+                    <div class="col-md-2">
+                        <div class="form-group">
+
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Contests
+                                </label>
+                            </div>
+
+                            <div class="picker">
+                                <input type="range" min="30" max="100" step="1" id="red" />
+
+                                <label style="color: red">$30</label>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <hr />
+            <div>
+                <div class="col-md-9">
+                    <a href="#" class="btn btn-primary">Clear Filter</a>
+                </div>
+
+
+                <div class="col-md-3">
+                    <ul class="pagination ">
+                        <li class="disabled"><a href="#">&laquo;</a></li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+
+                        <li><a href="#">&raquo;</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <hr />
+            <div>
+                <table class="table table-striped table-hover ">
+                    <thead>
+                        <tr>
+
+                            <th>Project/ Contest</th>
+                            <th>Bids/Entries</th>
+                            <th>Started</th>
+                            <th>Price(USD)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr class="" style="background-color: skyblue; color: black">
+                            <td>
+                                <h4><a href="#" style="color: black">ABC </a></h4>
+                                <p class="list-group-item-text">
+                                    bengali translation - বাংলা অনুবাদ - repost - open to bidding -
+                                    repost - open to bidding
+                                </p>
+                                </
+                            </td>
+                            <td>
+                                0
+                            </td>
+                            <td>Today</td>
+                            <td>$50</td>
+                        </tr>
+
+                        <tr class="" style="background-color: skyblue; color: black">
+                            <td>
+                                <h4><a href="#" style="color: black">ABC </a></h4>
+                                <p class="list-group-item-text">
+                                    bengali translation - বাংলা অনুবাদ - repost - open to bidding -
+                                    repost - open to bidding
+                                </p>
+                                </
+                            </td>
+                            <td>
+                                0
+                            </td>
+                            <td>Today</td>
+                            <td>$50</td>
+                        </tr>
+
+                        <tr class="" style="background-color: skyblue; color: black">
+                            <td>
+                                <h4><a href="#" style="color: black">ABC </a></h4>
+                                <p class="list-group-item-text">
+                                    bengali translation - বাংলা অনুবাদ - repost - open to bidding -
+                                    repost - open to bidding
+                                </p>
+                                </
+                            </td>
+                            <td>
+                                0
+                            </td>
+                            <td>Today</td>
+                            <td>$50</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+            <hr />
+            <hr />
+            <div class="col-md-9">
+            </div>
+            <div class="col-md-3">
+                <ul class="pagination ">
+                    <li class="disabled"><a href="#">&laquo;</a></li>
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+
+                    <li><a href="#">&raquo;</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2"></div>
+        </div></div>
+
+
+ 
+</body>
+</html>
+
+
