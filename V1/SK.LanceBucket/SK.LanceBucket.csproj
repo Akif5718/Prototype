@@ -175,6 +175,7 @@
     <Content Include="Views\User\Project_Description.cshtml" />
     <Content Include="Views\User\RequestedWorker.cshtml" />
     <Content Include="Views\User\WorkerProgress.cshtml" />
+    <Content Include="Views\User\ProfileWorker.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

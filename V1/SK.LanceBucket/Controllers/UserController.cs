@@ -51,5 +51,9 @@ namespace SK.LanceBucket.Controllers
         {
             return View();
         }
+        public ActionResult ProfileWorker()
+        {
+            return View();
+        }
     }
 }
