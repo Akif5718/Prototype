@@ -129,6 +129,7 @@
     <Content Include="Content\images\image2.PGN.PNG" />
     <Content Include="Content\images\image3.PGN.PNG" />
     <Content Include="Content\images\S.jpg" />
+    <Content Include="Content\images\star.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -171,6 +172,9 @@
     <Content Include="Views\User\Profile.cshtml" />
     <Content Include="Views\User\JobHome.cshtml" />
     <Content Include="Views\User\JobPost.cshtml" />
+    <Content Include="Views\User\Project_Description.cshtml" />
+    <Content Include="Views\User\RequestedWorker.cshtml" />
+    <Content Include="Views\User\WorkerProgress.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

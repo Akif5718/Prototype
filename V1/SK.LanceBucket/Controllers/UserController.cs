@@ -39,6 +39,17 @@ namespace SK.LanceBucket.Controllers
         {
             return View();
         }
-
+        public ActionResult Project_Description()
+        {
+            return View();
+        }
+        public ActionResult RequestedWorker()
+        {
+            return View();
+        }
+        public ActionResult WorkerProgress()
+        {
+            return View();
+        }
     }
 }
