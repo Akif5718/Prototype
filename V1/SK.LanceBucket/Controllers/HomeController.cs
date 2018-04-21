@@ -10,6 +10,7 @@ namespace SK.LanceBucket.Controllers
     {
         public ActionResult Index()
         {
+            //hello
             return View();
         }
 
